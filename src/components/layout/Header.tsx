@@ -45,7 +45,7 @@ export default function Header() {
             </a>
 
             <a
-              href="#register"
+              href="/register"
               className="relative overflow-hidden group bg-linear-to-r from-[#E59E0A] via-[#F59E0B] to-[#C98A00] text-white font-bold py-2.5 px-6 rounded-full shadow-sm hover:shadow-md hover:scale-[1.02] active:scale-[0.98] transition-all duration-300 text-sm"
             >
               <span className="relative z-10">Register Free</span>
@@ -119,7 +119,7 @@ export default function Header() {
               </a>
 
               <a
-                href="#register"
+                href="/register"
                 onClick={() => setIsMobileMenuOpen(false)}
                 className="w-full text-center py-3 bg-linear-to-r from-[#E59E0A] via-[#F59E0B] to-[#C98A00] text-white font-bold rounded-full shadow-sm hover:scale-[1.01] active:scale-[0.99] transition-all"
               >

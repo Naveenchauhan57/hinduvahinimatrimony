@@ -139,7 +139,7 @@ export default function CommunityServicesSection() {
               All communities are verified and actively moderated.
             </p>
             <a
-              href="#register"
+              href="/register"
               className="text-[12.5px] font-black text-[#C58900] hover:text-[#E0A100] uppercase tracking-widest transition-colors duration-200 flex items-center gap-1.5 group"
             >
               Create Free Profile

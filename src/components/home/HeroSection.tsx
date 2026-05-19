@@ -72,7 +72,7 @@ export default function HeroSection() {
           {/* CTA Buttons */}
           <div className="flex flex-col sm:flex-row items-center gap-4 sm:gap-6 w-full sm:w-auto">
             <a
-              href="#register"
+              href="/register"
               className="w-full sm:w-auto relative overflow-hidden group bg-linear-to-r from-[#E59E0A] via-[#F59E0B] to-[#C98A00] text-white font-extrabold py-4 px-10 rounded-full shadow-lg hover:shadow-[#F59E0B]/20 hover:scale-[1.03] active:scale-[0.98] transition-all duration-300 text-base"
             >
               <span className="relative z-10">Create Free Profile</span>

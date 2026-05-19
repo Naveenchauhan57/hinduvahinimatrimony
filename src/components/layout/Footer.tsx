@@ -73,7 +73,7 @@ export default function Footer() {
               <ul className="space-y-3">
                 {[
                   { label: "Member Login", href: "#login" },
-                  { label: "Sign Up", href: "#register" },
+                  { label: "Sign Up", href: "/register" },
                   { label: "Partner Search", href: "#search" },
                   { label: "Premium Memberships", href: "#premium" },
                   { label: "Customer Support", href: "#support" },
