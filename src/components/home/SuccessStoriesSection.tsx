@@ -129,7 +129,7 @@ export default function SuccessStoriesSection() {
                   className="object-cover object-center"
                   priority
                 />
-                <div className="absolute inset-0 bg-gradient-to-t from-black/35 via-transparent to-transparent z-10" />
+                <div className="absolute inset-0 bg-linear-to-t from-black/35 via-transparent to-transparent z-10" />
 
                 {/* Overlay Badges */}
                 <div className="absolute top-4 left-4 z-20">

@@ -50,7 +50,7 @@ export default function StepProfileType() {
               onClick={() => handleSelect(option)}
               className={`px-5 py-3 rounded-full text-sm font-black tracking-wide border transition-all duration-300 cursor-pointer
                 ${isSelected
-                  ? "bg-gradient-to-r from-[#E0A100] to-[#D4A359] border-transparent text-white shadow-md shadow-[#D4A359]/25 scale-[1.03]"
+                  ? "bg-linear-to-r from-[#E0A100] to-[#D4A359] border-transparent text-white shadow-md shadow-[#D4A359]/25 scale-[1.03]"
                   : "bg-white border-[#E8D7B0] text-[#0B132B] hover:bg-[#FFFDF8] hover:border-[#D4A359]"
                 }`}
             >

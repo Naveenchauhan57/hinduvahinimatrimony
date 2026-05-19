@@ -3,7 +3,7 @@ import Logo from "../ui/Logo";
 
 export default function Footer() {
   return (
-    <footer className="w-full select-none bg-linear-to-br from-[#050505] via-[#0A0A0F] to-[#111827] border-t border-white/[0.06] relative overflow-hidden">
+    <footer className="w-full select-none bg-linear-to-br from-[#050505] via-[#0A0A0F] to-[#111827] border-t border-white/6 relative overflow-hidden">
 
       {/* Ambient golden glow — top left */}
       <div className="absolute top-[-10%] left-[-5%] w-[500px] h-[500px] bg-radial from-[#D4A359]/8 via-transparent to-transparent blur-3xl pointer-events-none" />
@@ -16,7 +16,7 @@ export default function Footer() {
           {/* Column 1: Brand Block */}
           <div className="lg:col-span-4 flex flex-col gap-6">
             {/* Logo Card */}
-            <div className="inline-flex bg-white/[0.04] border border-white/10 rounded-2xl px-4 py-4 backdrop-blur-sm shadow-[0_4px_20px_rgba(0,0,0,0.3)] w-fit">
+            <div className="inline-flex bg-white/4 border border-white/10 rounded-2xl px-4 py-4 backdrop-blur-sm shadow-[0_4px_20px_rgba(0,0,0,0.3)] w-fit">
               <Logo />
             </div>
 
@@ -149,7 +149,7 @@ export default function Footer() {
                 {/* App Store */}
                 <a
                   href="#app-store"
-                  className="flex items-center gap-3 bg-white/[0.04] hover:bg-[#F6D27A]/8 border border-white/10 hover:border-[#F6D27A]/50 hover:shadow-[0_0_20px_rgba(246,210,122,0.08)] text-white py-2.5 px-4 rounded-xl transition-all duration-300 w-full max-w-[170px]"
+                  className="flex items-center gap-3 bg-white/4 hover:bg-[#F6D27A]/8 border border-white/10 hover:border-[#F6D27A]/50 hover:shadow-[0_0_20px_rgba(246,210,122,0.08)] text-white py-2.5 px-4 rounded-xl transition-all duration-300 w-full max-w-[170px]"
                 >
                   <svg className="w-5 h-5 fill-current text-[#94A3B8] shrink-0" viewBox="0 0 24 24">
                     <path d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.81-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M15.97 4.17c.66-.81 1.11-1.93.99-3.06-1 .04-2.22.67-2.94 1.5-.64.74-1.2 1.88-1.05 2.99 1.12.09 2.26-.58 3-1.43z" />
@@ -163,7 +163,7 @@ export default function Footer() {
                 {/* Google Play */}
                 <a
                   href="#play-store"
-                  className="flex items-center gap-3 bg-white/[0.04] hover:bg-[#F6D27A]/8 border border-white/10 hover:border-[#F6D27A]/50 hover:shadow-[0_0_20px_rgba(246,210,122,0.08)] text-white py-2.5 px-4 rounded-xl transition-all duration-300 w-full max-w-[170px]"
+                  className="flex items-center gap-3 bg-white/4 hover:bg-[#F6D27A]/8 border border-white/10 hover:border-[#F6D27A]/50 hover:shadow-[0_0_20px_rgba(246,210,122,0.08)] text-white py-2.5 px-4 rounded-xl transition-all duration-300 w-full max-w-[170px]"
                 >
                   <svg className="w-5 h-5 fill-current text-[#94A3B8] shrink-0" viewBox="0 0 24 24">
                     <path d="M3.609 1.814L13.792 12 3.61 22.186A2.22 2.22 0 0 1 3 20.575V3.425c0-.66.216-1.233.609-1.611zm11.236 9.14l2.585-2.585L4.85 1.545a1.86 1.86 0 0 0-1.242-.231l11.237 9.64zm3.87 2.115l-2.822-1.63L13.25 12.01l2.643 2.643 2.822-1.63a1.99 1.99 0 0 0 0-3.386zM4.85 22.455l12.58-7.26-2.585-2.585L3.609 22.25c.348.163.774.24 1.241.205z" />

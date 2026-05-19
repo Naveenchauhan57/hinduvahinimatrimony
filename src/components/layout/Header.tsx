@@ -1,6 +1,7 @@
 "use client";
 
 import React, { useState } from "react";
+import Link from "next/link";
 import Logo from "../ui/Logo";
 
 export default function Header() {
@@ -37,12 +38,12 @@ export default function Header() {
           </nav>
 
           <div className="flex items-center gap-4">
-            <a
-              href="#login"
+            <Link
+              href="/login"
               className="text-sm font-bold text-[#1A1A1A] hover:text-[#E59E0A] border border-[#F2D9A6] hover:border-[#E59E0A] py-2 px-5 rounded-full transition-all duration-300 bg-white"
             >
               Login
-            </a>
+            </Link>
 
             <a
               href="/register"
@@ -110,13 +111,13 @@ export default function Header() {
             <div className="h-px bg-[#F2D9A6]/30 my-2" />
 
             <div className="flex flex-col gap-3 px-3">
-              <a
-                href="#login"
+              <Link
+                href="/login"
                 onClick={() => setIsMobileMenuOpen(false)}
                 className="w-full text-center py-2.5 text-base font-bold text-[#1A1A1A] hover:text-[#E59E0A] border border-[#F2D9A6] rounded-full bg-white transition-all"
               >
                 Login
-              </a>
+              </Link>
 
               <a
                 href="/register"

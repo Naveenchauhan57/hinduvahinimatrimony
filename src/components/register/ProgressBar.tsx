@@ -43,7 +43,7 @@ export default function ProgressBar({ currentStep }: ProgressBarProps) {
               <div
                 className={`relative z-10 w-8 h-8 rounded-full flex items-center justify-center text-xs font-bold transition-all duration-300
                   ${isActive
-                    ? "bg-gradient-to-r from-[#E0A100] to-[#D4A359] text-white ring-4 ring-[#E0A100]/20 scale-110 shadow-md"
+                    ? "bg-linear-to-r from-[#E0A100] to-[#D4A359] text-white ring-4 ring-[#E0A100]/20 scale-110 shadow-md"
                     : isCompleted
                       ? "bg-[#D4A359] text-white"
                       : "bg-[#FCFAF5] border-2 border-[#E8D7B0] text-[#5C6478]"
@@ -83,7 +83,7 @@ export default function ProgressBar({ currentStep }: ProgressBarProps) {
       {/* Visual progress bar */}
       <div className="w-full h-1.5 bg-[#E8D7B0]/20 rounded-full overflow-hidden">
         <motion.div
-          className="h-full bg-gradient-to-r from-[#E0A100] via-[#D4A359] to-[#E0A100]"
+          className="h-full bg-linear-to-r from-[#E0A100] via-[#D4A359] to-[#E0A100]"
           initial={{ width: 0 }}
           animate={{ width: `${progressPercent}%` }}
           transition={{ duration: 0.4, ease: "easeInOut" }}
